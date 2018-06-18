@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technology-BBC news</title>
+<style type="text/css">
+body{
+	margin:0px;
+	padding:0px;
+}
+
+
+ 
+	#logo{
+		padding-top: 6px;
+		padding-bottom:6px; 
+		margin-left: 170px;
+		margin-top: 0px;
+		width: 93px;
+		border-right: 1px #cccccc solid;
+		
+		
+	}
+	#sign{
+
+	}
+
+
+#sign{
+	padding-top: 10px;
+	margin-left: 40px;
+	color: #333333;
+	font-family: arial;
+	font-size: 13px;
+	
+	margin-right: 60px;
+	
+}
+
+#arrow{
+		width: 20px;
+}
+#news{
+	font-family: Arial ;
+	font-size: 13px;
+	color: #333333;
+	
+	width: 70px;
+	text-align:center;
+	margin: relative;
+	margin-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	border-right: 1px #cccccc solid;
+	border-left: 1px #cccccc solid;
+
+}
+.common_t{
+	font-family: Arial ;
+	font-size: 13px;
+	color: #333333;
+	
+	width: 70px;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	border-right: 1px #cccccc solid;
+	}
+	#more{
+		padding-right: 20px;
+	}
+	input[type=text]{
+		background-color: #e4e4e4;
+		text-align: left;
+		width: 170px;
+		
+	}
+	#Searchbox{
+		padding-top: 8px;
+		padding-left:8px;
+
+	}
+	#searchs{
+		padding-top: 8px;
+	}
+
+
+.topbar{
+	float: left;
+	box-sizing: border-box;
+
+}
+.hov:hover{
+		border-bottom: 3px red solid;
+}
+#rectangle{
+	position: absolute;
+height: 100px;
+width: 100%;
+background-color: #bb1919;
+margin-top: 38px;
+float: left;
+margin-left: 0px;
+z-index: 0;
+border-top: 1px #cccccc solid;
+}
+#squarene{
+	position: absolute;
+	height: 30px;
+	width: 170px;
+	margin-top: 55px;
+	margin-left: 1000px;
+	background-color: #bb1919;
+	border: 0.1px #bb4545 solid;
+	text-align: left;
+	font-size: 19px;
+	font-family: helvetica;
+	padding-top: 3px;
+	padding-left: 15px;
+
+}
+#squarene:hover{
+	text-decoration: underline;
+}
+#spl{
+	text-decoration: none;
+	color: white;
+}
+#spl:hover{
+	text-decoration:underline;
+}
+#tbar{
+	position: absolute;
+	margin-top: 100px;
+	height: 38px;
+	width: 100%;
+	background-color: #a91717;
+}
+#nl{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 150px;
+	z-index: 1;
+}
+.tbarmc{
+	float: left;
+	
+}
+#tbar1{
+	position: absolute;
+	margin-left: 170px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 60px;	
+}
+.border:hover{
+	border-bottom: 3px #ffffff solid;
+	box-sizing: border-box;
+}
+.line{
+	position: absolute;
+	width: 1px;
+	height: 20px;
+	margin-left:230px;
+	margin-top: 10px; 
+}
+#line2{
+	margin-left: 270px;
+}
+#uk{
+	position: absolute;
+	margin-left: 230px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 40px;
+
+}
+#world{
+	position: absolute;
+	margin-left: 270px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 60px;
+
+}
+#line3{
+	margin-left: 330px;
+}
+
+#business{
+	position: absolute;
+	margin-left: 330px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 80px;
+
+}
+#line4{
+	margin-left: 410px;
+}
+#politics{
+	position: absolute;
+	margin-left: 410px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 80px;
+
+}
+#line5{
+	margin-left: 490px;
+}
+#tech{
+	position: absolute;
+	margin-left: 490px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 60px;
+	border-bottom: 3px white solid;
+	box-sizing: border-box;
+
+}
+#line6{
+	margin-left: 550px;
+}
+#science{
+	position: absolute;
+	margin-left: 550px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 80px;
+
+}
+#line12{
+	margin-left: 630px;
+}
+#health{
+	position: absolute;
+	margin-left: 630px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 70px;
+
+}
+#line7{
+	margin-left: 700px;
+}
+#education{
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 80px;
+
+}
+#line8{
+	margin-left: 780px;
+}
+#arts{
+	position: absolute;
+	margin-left: 780px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 180px;
+
+}
+#line9{
+	margin-left: 960px;
+}
+#video{
+	position: absolute;
+	margin-left: 960px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 100px;
+
+}
+#line10{
+	margin-left: 1060px;
+}
+#mo{
+	position: absolute;
+	margin-left: 1060px;
+	margin-top: 0px;
+	
+	
+	 line-height: 40px;
+	color: #fefefe;
+	font-family: helvetica;
+	font-size: 14px;
+	text-align: center;
+	height: 39px;
+	width: 80px;
+
+}
+
+
+#atbar{
+	position: absolute;
+		margin-top: 138px;
+	height: 100%;
+	width: 100%;
+
+}
+#head{
+	margin-left: 180px;
+	font-family: helvetica;
+	color: #404040;
+	font-size:20px;
+	height: 23px;
+	width: 110px;
+	text-align: center;
+	border-bottom: 3px solid #bb1919;
+
+}
+#asda{
+	margin-left: 180px;
+	font-family:helmet,freesans,helvetica,arial,sans-serif; 
+	font being rendered:helvetica;
+	font-weight: 700;
+	line-height: 36px
+	width: 700px;
+	color :black;
+	
+	font-size: 32px;
+}
+#asda:hover{
+	color: #1167a8;
+}
+#asdal{
+	text-decoration: none;
+}
+#text{
+	position: relative;
+	width: 200px;
+	margin-left: 180px;
+	margin-top: -10px;
+}
+#textlink{
+	text-decoration:none;
+	color: #747474;
+
+}
+#adim{ position: relative;
+	margin-left: 420px;
+	margin-top: -100px;
+	
+}
+#hline{
+	height: 1000px;
+	width: 1px;
+	background-color: #dbdbdb;
+	margin-left: 840px;
+	margin-top:-280px;
+}
+#vline{
+	height: 1px;
+	width: 640px;
+	background-color: #dbdbdb;
+	margin-top: -700px;
+	margin-left: 180px;
+}
+#hours{
+	color: #747474;
+	font-size: 15px;
+	border-right: 1px solid #dbdbdb;
+	width: 80px;
+
+	margin-left: 200px;
+	margin-top: -145px;
+
+}
+#techn{
+	margin-left: 290px;
+	font-family:helvetica;
+	font-size: 15px;
+	margin-top: -17px;
+	color:#bb1919;
+}
+#rvl{
+	height: 1px;
+	width: 50px;
+	margin-left: 180px;
+	background-color: #bb1919;
+	margin-top: 10px;
+
+}
+#mc{
+margin-top: 10px;
+margin-left: 180px;
+font-family:helvetica;
+font-size: 14px;
+
+}
+#mc1{
+
+	margin-left: 180px;
+	font-family: helvetica;
+	margin-top: 10px;
+	font-size:14px;
+}
+#watch{
+	height: 1000px;
+	width: 500px;
+	margin-left: 860px;
+	margin-top: -250px;
+
+}
+#listen{
+
+	margin-top: -5px;
+}
+#wl1{
+	width: 350px;
+	margin-top: -10px;
+
+}
+.wl{
+	width: 350px;
+	margin-top: 15px;
+
+}
+.wlc{
+	position: absolute;
+	margin-left: 120px;
+	margin-top: -65px;
+	width: 180px;
+	color: #747474;
+}
+.wlt{
+	position: absolute;
+	margin-left: 140px;
+	color: #747474;
+	font-size: 13px;
+	font-family: helvetica;
+	margin-top: -20px;
+
+}
+.awll{
+	text-decoration:none;
+	color:#747474; 
+}
+.awll:hover{
+	color: #1167a8;
+}
+</style>
+
+
+
+</head>
+<body>
+	<div id="logo" class="topbar">
+		
+<img src="images/bbc-logo.png"  >
+</div>
+
+<a href=""><div id="sign" class="topbar hov">
+	<strong>Sign in</strong>
+	
+</div></a>
+<div id="arrow" class="topbar">
+	<img src="images/arrow.png">
+</div>
+<a href="http//www.google.com"><div id="news"  class="topbar hov">
+	<strong>News</strong>
+</div></a>
+<a href=""><div class="common_t hov topbar">
+	<strong>Sports</strong>
+	
+</div></a>
+<a href=""><div class="common_t hov topbar">
+	<strong>Weather</strong>
+	
+</div></a>
+<a href=""><div class="common_t hov topbar">
+	<strong>iPlayer</strong>
+	
+</div></a>
+<a href=""><div class="common_t hov topbar">
+	<strong>TV</strong>
+	
+</div></a>
+<a href=""><div class="common_t hov topbar">
+	<strong>Radio</strong>
+	
+</div></a>
+<a href=""><div class="common_t hov topbar" id="more">
+	<strong>More</strong>
+	
+</div></a>
+<div id="Searchbox" class="topbar">
+	<input type="text" name="bbc" placeholder="Search">
+</div>
+<a href=""><div class="topbar" id="searchs">
+	<img src="images/Search1.png">
+</div></a>
+<div id="rectangle" >
+	
+</div>
+<a href="" id="spl">
+<div id="squarene">Find local news</div></a>
+<div id="nl">
+	<img src="images/news.png">
+	
+</div>
+<div id="tbar">
+	<a href=""><div id="tbar1" class="tbarmc border">Home</div></a>
+	<img src="images/line.png" class="line">
+	<a href=""><div id="uk" class="tbarmc border">UK</div></a>
+	<img src="images/line.png" class="line" id="line2">
+	<a href=""><div id="world" class="tbarmc border">World</div></a>
+	<img src="images/line.png" class="line" id="line3">
+	<a href=""><div id="business" class="tbarmc border">Business</div></a>
+	<img src="images/line.png" class="line" id="line4">
+	<a href=""><div id="politics" class="tbarmc border">Politics</div></a>
+	<img src="images/line.png" class="line" id="line5">
+	<a href=""><div id="tech" class="tbarmc border">Tech</div></a>
+	<img src="images/line.png" class="line" id="line6">
+	<a href=""><div id="science" class="tbarmc border">science</div></a>
+	<img src="images/line.png" class="line" id="line12">
+	<a href=""><div id="health" class="tbarmc border">Health</div></a>
+	<img src="images/line.png" class="line" id="line7">
+	<a href=""><div id="education" class="tbarmc border">Education</div></a>
+	<img src="images/line.png" class="line" id="line8">
+	<a href=""><div id="arts" class="tbarmc border">Entertainment & Arts</div></a>
+	<img src="images/line.png" class="line" id="line9">
+	<a href=""><div id="video" class="tbarmc border">Video & Audio</div></a>
+	<img src="images/line.png" class="line" id="line10">
+	<a href=""><div id="mo" class="tbarmc border">More</div></a>
+	<img src="images/line.png" class="line" id="line11">
+	
+</div>
+<div id="atbar">
+	<h1 id="head">Technology</h1>
+	<a href="" id="asdal"><h2 id="asda">Asda bug exposed payment details</h2>
+	</a>
+	<div id="text"><a href="" id="textlink" >
+		Security vulnerability that put customers at risk have affected Asda's website for a couple of years,a security expert has revealed.
+	</a></div>
+	<img src="images/asda.png" id="adim">
+	<div id="hline"></div>
+	<div id="vline"></div>
+	<div id="hours">2 hours ago</div>
+	<div id="techn">Technology</div>
+	<div id="rvl"></div>
+	<div id="mc">surveillance firm hit in hack attack</div>
+<div id="mc1">eBay flows has existed for month</div>
+<div id="watch"><h1 id="listen">Watch/Listen</h1>
+<div id="wl1"><img src="images/uk.png"><div class="wlc"><a href="" class="awll">UK science chief backs block chain</a></div><div class="wlt">1 hour ago</div></div>
+<div class="wl"><img src="images/uk2.png"><div class="wlc"><a href="" class="awll">Drone register gives'accountability'</a></div>
+<div class="wlt">1 hour ago</div></div>
+<div class="wl"><img src="images/uk3.png"><div class="wlc"><a href="" class="awll">spaceX rocket explodes during landing</a></div><div class="wlt">1 hour ago</div></div>
+<div class="wl"><img src="images/uk4.png"><div class="wlc"><a href="" class="awll">what is a VPN service?</a></div><div class="wlt">1 hour ago</div></div>
+<div class="wl"><img src="images/uk5.png"><div class="wlc"><a href="" class="awll">charge your phone with a hand crank</a></div><div class="wlt">1 hour ago</div></div>
+</div>
+
+</div>
+
+
+
+
+</body>
+</html>
