@@ -1,0 +1,10 @@
+name: mukul-bbc-clone
+services:
+  bbc-clone:
+    image: ${IMAGE_PREFIX:-mukul-local}/bbc-clone:${IMAGE_TAG:-latest}
+    platform: ${DOCKER_PLATFORM:-linux/amd64}
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8084}:8080"
