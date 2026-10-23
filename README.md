@@ -1,4 +1,10 @@
 # bbc_website_clone_using_html_-_css_only
+
+## Status and TODO
+
+Static page: `make deploy` (Docker, http://localhost:8084), or open `bbc.html` directly.
+
+- TODO: navigation and article links are static placeholders; there is no news data source.
 this is a clone website of bbc news.it is based only on html and css only.
 
 ## Docker build and deployment
